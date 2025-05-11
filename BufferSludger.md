@@ -10,7 +10,7 @@ Buffer Sludger is a real time audio buffer recorder and playback module supporti
 * **Direct**: Automation CV sets the exact playback position in the buffer.
 * **Wrap**: The loop plays continuously at the set tempo, and the automation CV adds a phase offset on top of the running loop.
 
-The loop duration (in seconds) is displayed at the top center of the module (**1**).
+The loop duration (in seconds) is displayed at the top of the 0waveform display screen (**1**).
 
 ## Inputs
 
