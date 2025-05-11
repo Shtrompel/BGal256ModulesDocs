@@ -43,6 +43,8 @@ The loop duration (in seconds) is displayed at the top center of the module (**1
 
 ## Context Menu Options
 
+<img src="https://github.com/Shtrompel/BGal256ModulesDocs/blob/main/BufferSludgerContext.png?raw=true" style="width:50%;">
+
 | No. | Option                            | Description                                                                                       |
 | --- | --------------------------------- | ------------------------------------------------------------------------------------------------- |
 | 16  | Load WAV File                     | Open file dialog to import a WAV into the buffer                                                  |
