@@ -5,7 +5,7 @@
 
 <img src="https://github.com/Shtrompel/BGal256ModulesDocs/blob/main/DressMeUp.png?raw=true" style="width:50%;">
 
-Dress me up is a programmable 4 step programmable sequencer with a interactable dressing game where each cloth is categorized into 4 types of clothes, each representing a step. And each cloth of the in the same cloth type represents the value of the step.
+Dress me up is a programmable 4 step sequencer with an interactable dressing game where each cloth is categorized into 4 types of clothes, each representing a step. And each cloth of the in the same cloth type represents the value of the step.
 
 In the UI at **(1)** you can drag and drop clothes on or from the model, the current step will highlight the current worn cloth of the equivalent clothing type.
 
