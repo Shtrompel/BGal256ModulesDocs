@@ -2,6 +2,9 @@
 
 ### Overview
 
+
+![Refrence Image](https://github.com/Shtrompel/BGal256ModulesDocs/BufferSludger.png?raw=true)
+
 Buffer Sludger is a real time audio buffer recorder and playback module supporting mono or stereo signals. It offers two **Playback Modes**:
 
 * **Direct**: Automation CV sets the exact playback position in the buffer.
