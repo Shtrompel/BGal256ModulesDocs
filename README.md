@@ -11,4 +11,4 @@ Documentation for my VCV Rack plugins:
 
 ### [SortStep](https://github.com/Shtrompel/BGal256ModulesDocs/blob/main/SortStep.md)
 
-<img src="https://github.com/Shtrompel/BGal256ModulesDocs/blob/main/SortStepRaw?raw=true" style="width:50%;">
+<img src="https://github.com/Shtrompel/BGal256ModulesDocs/blob/main/SortStepRaw.pngraw=true" style="width:50%;">
