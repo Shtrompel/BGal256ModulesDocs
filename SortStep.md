@@ -2,9 +2,6 @@
 ## Dress Me Up
 
 ### Overview
-## Dress Me Up
-
-### Overview
 
 
 <img src="https://github.com/Shtrompel/BGal256ModulesDocs/blob/main/SortStep.png?raw=true" style="width:50%;">
