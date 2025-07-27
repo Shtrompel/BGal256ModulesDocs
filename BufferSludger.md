@@ -5,19 +5,19 @@
 
 <img src="https://github.com/Shtrompel/BGal256ModulesDocs/blob/main/BufferSludger.png?raw=true" style="width:50%;">
 
-Buffer Sludger is a real time audio buffer recorder and playback module supporting mono or stereo signals. It offers two **Playback Modes**:
+Buffer Sludger is a real-time audio buffer recorder and playback module supporting mono or stereo signals. It offers two **Playback Modes**:
 
 * **Direct**: Automation CV sets the exact playback position in the buffer.
 * **Wrap**: The loop plays continuously at the set tempo, and the automation CV adds a phase offset on top of the running loop.
 
-The module has an internal clock that is used for controlling the playback speed of the sample. The sampple duration (in seconds) is displayed at the top of the waveform display screen (**1**).
+The module has an internal clock that is used for controlling the playback speed of the sample. The sample duration (in seconds) is displayed at the top of the waveform display screen (**1**).
 
 ## Inputs
 
 | No. | Input             | Description                                 | Signal Type |
 | --- | ----------------- | ------------------------------------------- | ----------- |
 | 2   | Clock Step        | Receives external clock triggers            | Trigger     |
-| 3   | Clock Reset       | Manually reset internal loop timing         | Trigger     |
+| 3   | Clock Reset       | Manually reset the internal clock timing         | Trigger     |
 | 4   | Clock Phase       | Continuous phase CV (alternative to step)   | 0–10 CV     |
 | 5   | Clear Buffer      | Clears all recorded samples in the buffer   | Trigger     |
 | 6   | Automation        | Controls playback position or offset (Wrap) | 0–10 CV     |
@@ -30,7 +30,7 @@ The module has an internal clock that is used for controlling the playback speed
 | No. | Output             | Description                              | Signal Type |
 | --- | ------------------ | ---------------------------------------- | ----------- |
 | 10  | Audio Left Output  | Buffered playback (mono or left channel) | ±5 V CV     |
-| 11  | Audio Right Output | Buffered playback right channel          | ±5 V CV     |
+| 11  | Audio Right Output | Buffered playback (right channel)          | ±5 V CV     |
 
 ## Knobs & Switches
 
@@ -53,4 +53,4 @@ The module has an internal clock that is used for controlling the playback speed
 | 19  | Disable Anti-Click Filter         | Bypass crossfade smoothing on click detection                                                    |
 | 20  | Enable Speed Change on BPM Change | Resample buffer on tempo change instead of adding silence of cutting of the sample                                  |
 | 21  | Visual Mode                       | Select audio buffer display: rotating **Disk** mode, **Waveform** of the sample or **Disable** the view.                                     |
-| 22  | UI Downsampling                   | Adjust waveform draw resolution: lower values will make the quality higher                                 |
+| 22  | UI Downsampling                   | Adjust the waveform draw resolution: lower values will increase the quality                                 |
