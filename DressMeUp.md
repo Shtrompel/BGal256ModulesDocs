@@ -5,38 +5,39 @@
 
 <img src="https://github.com/Shtrompel/BGal256ModulesDocs/blob/main/DressMeUp.png?raw=true" style="width:50%;">
 
-Dress me up is a programmable 4 step sequencer with an interactable dressing game where each cloth is categorized into 4 types of clothes types (hair, shirt, pants and shoes), every type represents a step and each color represents the value of the step.
-In the UI at **(1)** you can drag and drop clothes on or from the model on the left, the current cloth of the current step will get highlighted and every time the step will change into another cloth type the new peice of clothing will get highlighted instead.
+Dress me up is a programmable 4 step sequencer with an interactive dressing game where each piece of clothing is categorized into 4 types (hair, shirt, pants and shoes).
+In the UI at **(1)** you can drag and drop clothes on onto or frame the model on the left. The current piece of clothing for the current step will be highlighted, and each time the step changes, another clothing item will be highlighted and selected.
+The output is depended on the currently worn piece of clothing.
 
 
 ## Inputs
 
-| No. | Input             | Description                                 | Signal Type |
+| No. | Input             | Description                                 | Signal Type |categorized
 | --- | ----------------- | ------------------------------------------- | ----------- |
 | 2   | Reset        | Reset the step position to 1.            | Trigger     |
-| 3   | Prev       | Go the the previous step        | Trigger     |
+| 3   | Prev       | Go to the previous step        | Trigger     |
 | 4   | Step       | Advance to the next step   | Trigger     |
-| 5   | Step/CV      | Controll the current step using a cv input.    | Range depends on **(12)** |
-| 6   | Value A/B/C/D        | Controll the value of every of the 4 steps. |  Range depends on **(14)**  |
-| 7   | Current Value           | Controll the value of the current step.         |  Range depends on  **(14)**  |
+| 5   | Step/CV      | Control the current step using a CV input.    | Range depends on **(12)** |
+| 6   | Value A/B/C/D        | Control the value of each of the 4 steps. |  Range depends on **(14)**  |
+| 7   | Current Value           | Control the value of the current step.         |  Range depends on  **(14)**  |
 
 ## Outputs
 
 | No. | Output             | Description                              | Signal Type |
 | --- | ------------------ | ---------------------------------------- | ----------- |
 | 8  | Out  | Output the value of the current step. When output filter is enabled through the context menu negative values will also be outputted. | ±10 V     |
-| 9  | Step | If the current step was changed, and there is a cloth currenly worn this output jack will output a trigger.          | Trigger     |
+| 9  | Step | If the current step was changed, and there is a cloth currently worn, this output jack will output a trigger.          | Trigger     |
 | 10  | Sum | The raw sum of all 4 steps.          | 0-40 V     |
 
 ## Knobs & Switches
 
 | No. | Control        | Description                                            | Range             |
 | --- | -------------- | ------------------------------------------------------ | ----------------- |
-| 11  | Steps Len            | Change the step count of the sequencer.                              | 1-4 Steps         |
+| 11  | Steps Len            | Change the step count of the sequencer.                              | 1-4 steps         |
 | 12  | Step/CV Range | The expected input range or the Step/CV  | Switch |
-| 13  | Smooth Step  | Instead of snapping to the nearest step, enable smooth transition between the steps.      | Switch     |
+| 13  | Smooth Step  | Instead of snapping to the nearest step, enable a smooth transition between the steps.      | Switch     |
 | 14  | Value/CV Range | The expected input range or the Value/CV  | Switch |
-| 15  | Quantize Value  | Instead of outputing the value of the cloth for each step, output the stored value that was inputted from the Value/CV inputs. | Switch     |
+| 15  | Quantize Value  | Instead of outputting the value of the cloth for each step, output the stored value that was inputted from the Value/CV inputs. | Switch     |
 | 16  | Output Range  | Multiply the output by the value of the knob. | 0 - 10 |
 
 ## Context Menu Options
@@ -47,4 +48,4 @@ In the UI at **(1)** you can drag and drop clothes on or from the model on the l
 | --- | --------------------------------- | ------------------------------------------------------------------------------------------------- |
 | 17  | Shader Parameters  | Customise the lcd screen shader. |
 | 18  | Disable Shader | Disable the lcd screen shader. |
-| 19  | Enable Output Filter | If the module is used as a effect or mixer, you can enable a high pass filter in order to normalize the waveform.|
+| 19  | Enable Output Filter | If the module is used as an effect or mixer, you can enable a high-pass filter in order to normalize the waveform. |
