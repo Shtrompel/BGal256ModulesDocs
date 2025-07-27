@@ -7,7 +7,7 @@ Documentation for my VCV Rack plugins:
 
 ### [Buffer Sludger](https://github.com/Shtrompel/BGal256ModulesDocs/blob/main/BufferSludgerTransposer.md)
 
-<img src="https://github.com/Shtrompel/BGal256ModulesDocs/blob/main/BufferSludgerTransposerRaw.png?raw=true" style="width:50%;">
+<img src="https://github.com/Shtrompel/BGal256ModulesDocs/blob/main/BufferSludgerTransposerRaw.png?raw=true" style="width:25%;">
 
 ### [Dress Me Up](https://github.com/Shtrompel/BGal256ModulesDocs/blob/main/DressMeUp.md)
 
