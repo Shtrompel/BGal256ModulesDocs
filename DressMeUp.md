@@ -13,7 +13,7 @@ The output is depended on the currently worn piece of clothing.
 ## Inputs
 
 | No. | Input             | Description                                 | Signal Type |categorized
-| --- | ----------------- | ------------------------------------------- | ----------- |
+| --- | ----------------- | ------------------------------------------- | 
 | 2   | Reset        | Reset the step position to 1.            | Trigger     |
 | 3   | Prev       | Go to the previous step        | Trigger     |
 | 4   | Step       | Advance to the next step   | Trigger     |
