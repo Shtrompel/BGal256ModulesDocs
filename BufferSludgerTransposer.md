@@ -3,7 +3,7 @@
 ### Overview
 
 
-<img src="https://github.com/Shtrompel/BGal256ModulesDocs/blob/main/BufferSludgerTransposer.png?raw=true" style="width:50%;">
+<img src="https://github.com/Shtrompel/BGal256ModulesDocs/blob/main/BufferSludgerTransposer.png?raw=true" style="width:12.5%;">
 
 Buffer Sludger Transposer is an expander module for [Buffer Sludger](https://github.com/Shtrompel/BGal256ModulesDocs/blob/main/BufferSludger.md) and acts as an additional automation input that is added on top of the existing automatio input. Meaning the actual automation is the sum of the automation input jack with the automation value that from this module.
 
