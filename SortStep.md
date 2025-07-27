@@ -52,7 +52,7 @@ Additional setting can be accessed from the screen by pressing the **(18)** to *
 
 ## Generic Menu
 
-<img src="https://github.com/Shtrompel/BGal256ModulesDocs/blob/main/SortStepMenu.png?raw=true" style="width:25%;">
+<img src="https://github.com/Shtrompel/BGal256ModulesDocs/blob/main/SortStepMenu.png?raw=true" style="width:50%;">
 
 | No. | Control        | Description                                            | Type             |
 | - | - | - | - |
@@ -63,7 +63,7 @@ Additional setting can be accessed from the screen by pressing the **(18)** to *
 
 ## Filters Menu
 
-<img src="https://github.com/Shtrompel/BGal256ModulesDocs/blob/main/SortStepMenuFilter.png?raw=true" style="width:25%;">
+<img src="https://github.com/Shtrompel/BGal256ModulesDocs/blob/main/SortStepMenuFilter.png?raw=true" style="width:50%;">
 
 25: 
 When sorting, every operation is outputted to the value or index outputs. In the filtering menu you can choose to skip any type of operation. Once disabled when the algorithm will do all of the filtered operations in the background and only output the closest non filtered operation.            Changes the number of elements within the array.    
@@ -79,7 +79,7 @@ The operations are:
 
 ## Key Out Menu
 
-<img src="https://github.com/Shtrompel/BGal256ModulesDocs/blob/main/SortStepMenuKeyOut.png?raw=true" style="width:25%;">
+<img src="https://github.com/Shtrompel/BGal256ModulesDocs/blob/main/SortStepMenuKeyOut.png?raw=true" style="width:50%;">
 
 | No. | Control        | Description                                            | Type             |
 | - | - | - | - |
