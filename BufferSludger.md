@@ -8,19 +8,21 @@
 Buffer Sludger is a real-time audio buffer recorder and playback module supporting mono or stereo signals. It offers two **Playback Modes**:
 
 * **Direct**: Automation CV sets the exact playback position in the buffer.
-* **Wrap**: The loop plays continuously at the set tempo, and the automation CV adds a phase offset on top of the running loop.
+* **Wrap**: The loop plays continuously at the set tempo, and the automation CV adds a phase offset on top of the running loop (this behavior mimicks the way ImageLine's [Gross Beat](https://www.image-line.com/fl-studio/plugins/gross-beat) works).
 
 The module has an internal clock that is used for controlling the playback speed of the sample. The sample duration (in seconds) is displayed at the top of the waveform display screen (**1**).
+
+This plugin has been made to work along lfo/automation modules like [ShapeMaster](https://library.vcvrack.com/MindMeldModular/ShapeMaster) by connecting them to the Automation input **(6)**.
 
 ## Inputs
 
 | No. | Input             | Description                                 | Signal Type |
 | --- | ----------------- | ------------------------------------------- | ----------- |
-| 2   | Clock Step        | Receives external clock triggers            | Trigger     |
+| 2   | Clock Step        | Connect to an external clock using steps            | Trigger     |
 | 3   | Clock Reset       | Manually reset the internal clock timing         | Trigger     |
-| 4   | Clock Phase       | Continuous phase CV (alternative to step)   | 0–10 CV     |
-| 5   | Clear Buffer      | Clears all recorded samples in the buffer   | Trigger     |
-| 6   | Automation        | Controls playback position or offset (Wrap) | 0–10 CV     |
+| 4   | Clock Phase       | Connect to an external clock using phase instead of steps **(2)**  | 0–10 CV     |
+| 5   | Clear Buffer      | Clears the buffer   | Trigger     |
+| 6   | Automation        | Controls playback position of the buffer | 0–10 CV     |
 | 7   | Dry/Wet           | Modulates the dry/wet mix parameter         | 0–10 CV     |
 | 8   | Audio Left Input  | Mono or left-channel audio recording input  | ±5 CV       |
 | 9   | Audio Right Input | Right-channel audio recording input         | ±5 CV       |
