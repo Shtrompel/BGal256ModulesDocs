@@ -5,9 +5,9 @@
 
 <img src="https://github.com/Shtrompel/BGal256ModulesDocs/blob/main/DressMeUp.png?raw=true" style="width:50%;">
 
-Dress me up is a programmable 4 step sequencer with an interactive dressing game where each piece of clothing is categorized into 4 types (hair, shirt, pants and shoes).
-In the UI at **(1)** you can drag and drop clothes on onto or frame the model on the left. The current piece of clothing for the current step will be highlighted, and each time the step changes, another clothing item will be highlighted and selected.
-The output is depended on the currently worn piece of clothing.
+Dress me up is a programmable 4 step sequencer with an interactive dressing game where each step is represented by piece of clothing (categorized into 4 types: hair, shirt, pants and shoes).
+In the UI at **(1)** you can drag and drop clothes on onto or frame the model on the left. The current piece of clothing for the current step will be highlighted, and each time the step changes, the next clothing item will be highlighted and selected.
+The output value is depended on the currently worn piece of clothing.
 
 
 ## Inputs
@@ -50,3 +50,4 @@ The output is depended on the currently worn piece of clothing.
 | 17  | Shader Parameters  | Customise the lcd screen shader. |
 | 18  | Disable Shader | Disable the lcd screen shader. |
 | 19  | Enable Output Filter | If the module is used as an effect or mixer, you can enable a high-pass filter in order to normalize the waveform. |
+
